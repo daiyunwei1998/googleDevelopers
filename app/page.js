@@ -1,6 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import StartBuildingToday from "@/components/StartBuildingToday/StartBuildingToday";
+import WhatAreYou from "@/components/WhatAreYou/WhatAreYou";
+import TrendingNews from "@/components/TrendingNews/TrendingNews";
+import WhatNew from "@/components/WhatNew/WhatNew";
 
 
 export default function Home() {
@@ -23,6 +26,10 @@ export default function Home() {
       </section>
 
       <StartBuildingToday />
+      <WhatAreYou />
+      <TrendingNews />
+      
+     
 
      
      

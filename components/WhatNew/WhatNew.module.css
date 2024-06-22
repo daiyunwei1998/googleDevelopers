@@ -1,0 +1,22 @@
+.section_what_new {
+    padding: 24px;
+
+}
+   
+.p {
+    font-size: 18px;
+}
+.img_what_new {
+    width: 100%;
+    height: auto;
+}
+.div_what_new {
+    width: 50%;
+}
+
+
+@media screen and (min-width:600px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
