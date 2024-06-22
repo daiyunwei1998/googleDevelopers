@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import StartBuildingToday from "@/components/StartBuildingToday/StartBuildingToday";
+
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
         </div>
       </div>
       </section>
+
+      <StartBuildingToday />
 
      
      

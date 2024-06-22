@@ -1,0 +1,25 @@
+.h1 {
+    font-size: 40px;
+    text-align: center;
+    
+}
+.section_build_today {
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card {
+    width:auto;
+    margin: 0px 15px 0px 15px;
+    display: flex;
+    
+    
+    align-items: center;
+    border:solid #F1F3F4;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+}
+

@@ -6,15 +6,19 @@ import NavLink from '../components/NavLink/NavLink';
 import SearchBox from "@/components/SearchBox/SearchBox";
 import Language from "@/components/Language/Language";
 import KebabMenu from "@/components/KebabMenu/KebabMenu";
-
-// fonts
+ 
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Google Developers",
   description: "AppWorks School 2024 Back-End Class Course Work, Week 1 Assignemnt 4",
+
 };
+export const viewport = {
+  initialScale: 1,
+  width: 'device-width'
+}
 
 export default function RootLayout({ children }) {
   return (

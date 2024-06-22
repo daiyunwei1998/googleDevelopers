@@ -9,6 +9,7 @@
 }
 .landing_cover {
   height: 100vh;
+  background-color: rgb(238, 238, 238);
 }
 .landing_h1 {
   font-size: 45px; 
@@ -45,6 +46,7 @@
   font-size:18px;
 }
 .landingCTA:hover {
+  cursor: pointer;
   background-color: #5f6368;
   transition: 3ms;
 }
