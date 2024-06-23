@@ -31,7 +31,7 @@ export default function Follow() {
         />
          <CardWithWhiteButton
         url = "https://twitter.com/googledevs"
-        icon = "/img/X.svg"
+        icon = "/img/x.svg"
         title = "X"
         description="Join the conversation to discover the latest developer tools, resources, events, and announcements."
         buttonText="Learn More"
