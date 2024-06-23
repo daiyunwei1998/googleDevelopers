@@ -4,7 +4,6 @@ import styles from './LandingCover.module.css'
 export default function LandingCover() {
   return (
     <section className = {styles.landing_cover}>
-     
       <div className={styles.div_landing}>
         <div className = {styles.landing_content}>
           <h1 className = {styles.landing_h1}>Rewatch Google I/O 2024</h1>
