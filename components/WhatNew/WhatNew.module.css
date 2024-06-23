@@ -1,8 +1,18 @@
 .section_what_new {
     padding: 24px;
+    background-color: #F1F3F4;
+    margin-top: 40px;
 
 }
-   
+.img_what_new {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.h1 {
+    font-size: 48px;
+    margin-top: -10px;
+}
 .p {
     font-size: 18px;
 }
@@ -10,13 +20,33 @@
     width: 100%;
     height: auto;
 }
-.div_what_new {
-    width: 50%;
+.button {
+    background-color:#1a73e8;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+    color:white;
+    border: None;
+    height: 36px;
+    margin-top: 30px;
+}
+.button:hover {
+cursor:pointer;
 }
 
 
 @media screen and (min-width:600px) {
     .container {
-        grid-template-columns: repeat(2, 1fr); 
+        display: flex;
+        align-items: center;
+
+    }
+    .img_what_new {
+        margin-right: 20px;
+        width: 50%;
+        height: auto;
+        flex: 0 0 auto;
+    }
+    .div_what_new {
+        width: 50%;
     }
 }
